@@ -6,7 +6,7 @@ const supabase = createClient(
   import.meta.env.VITE_SUPABASE_ANON_KEY
 );
 
-const CHECKOUT_URL = "https://crystal-checkout.vercel.app"; // update after deploy
+const CHECKOUT_URL = "https://crystal-checkout.vercel.app/"; // update after deploy
 
 const B = {
   navy:"#0A1628", blue:"#1E3A5F", midBlue:"#2B5C8A", lightBlue:"#4A90D9",
